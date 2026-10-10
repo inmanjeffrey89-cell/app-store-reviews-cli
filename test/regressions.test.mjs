@@ -7,6 +7,7 @@ test('a slug containing "id<digits>" is not mistaken for the app id', () => {
   assert.equal(parseAppId('https://apps.apple.com/us/app/covid19-tracker/id1520427663'), '1520427663');
   assert.equal(parseAppId('https://apps.apple.com/us/app/squid9-game/id123'), '123');
   assert.equal(parseAppId('https://itunes.apple.com/app/id310633997?mt=8'), '310633997');
+  assert.equal(parseAppId('id389801252'), '389801252');
   assert.equal(parseAppId('covid19-tracker'), null);
 });
 

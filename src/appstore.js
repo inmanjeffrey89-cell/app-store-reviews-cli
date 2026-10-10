@@ -3,8 +3,8 @@ export function parseAppId(input) {
   if (!input) return null;
   const s = String(input).trim();
   if (/^\d+$/.test(s)) return s;
-  // The id is its own path segment (/id389801252) or ?id=; a slug like "covid19-tracker" is not one.
-  const m = s.match(/\/id(\d+)(?=$|[/?#])/) || s.match(/[?&]id=(\d+)(?=$|[&#])/);
+  // The id is its own segment (id389801252, /id389801252) or ?id=; a slug like "covid19-tracker" is not one.
+  const m = s.match(/(?:^|\/)id(\d+)(?=$|[/?#])/) || s.match(/[?&]id=(\d+)(?=$|[&#])/);
   return m ? m[1] : null;
 }
 

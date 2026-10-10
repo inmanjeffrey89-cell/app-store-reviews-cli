@@ -1,6 +1,6 @@
 {
   "name": "app-store-reviews-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetch Apple App Store reviews for any app from the command line, no API key, no developer account.",
   "type": "module",
   "bin": {
