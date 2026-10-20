@@ -1,6 +1,6 @@
 {
   "name": "app-store-reviews-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fetch Apple App Store reviews for any app from the command line, no API key, no developer account.",
   "type": "module",
   "bin": {
@@ -23,6 +23,15 @@
     "url": "git+https://github.com/inmanjeffrey89-cell/app-store-reviews-cli.git"
   },
   "license": "MIT",
+  "author": {
+    "name": "Jeffrey Inman",
+    "email": "jeff.helpsupport@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/inmanjeffrey89-cell/app-store-reviews-cli/issues",
+    "email": "jeff.helpsupport@gmail.com"
+  },
+  "homepage": "https://github.com/inmanjeffrey89-cell/app-store-reviews-cli#readme",
   "keywords": [
     "app-store",
     "ios",
